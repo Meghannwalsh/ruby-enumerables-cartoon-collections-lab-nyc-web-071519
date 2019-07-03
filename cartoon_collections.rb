@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarves)
   nnumber = 0
   dwarves.each_with_index do |ele, i|
-    puts "(i = 1) + #{ele}"
+    puts "(i + 1) + #{ele}"
     puts ele
   end
   # Your code here
