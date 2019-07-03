@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   dwarves.each do |ele|
-    puts i
+    puts ele
   end
   # Your code here
 end
