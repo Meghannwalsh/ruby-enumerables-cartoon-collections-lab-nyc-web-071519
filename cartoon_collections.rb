@@ -11,6 +11,8 @@ def summon_captain_planet(veggies)
   new_arr = []
   veggies.each do |veg|
     new_arr << veg.capitalize + "!"
+  end
+  new_arr
 end
 
 def long_planeteer_calls# code an argument here
