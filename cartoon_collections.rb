@@ -7,9 +7,9 @@ def roll_call_dwarves(dwarves)
   # Your code here
 end
 
-def summon_captain_planet(arr)
+def summon_captain_planet(veggies)
   new_arr = []
-    arr.each do |ele|
+    veggies.each do |ele|
       new_arr << ele.capitalize + !
     end
   new_arr
