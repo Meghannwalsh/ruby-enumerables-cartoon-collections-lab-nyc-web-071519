@@ -15,8 +15,12 @@ def summon_captain_planet(veggies)
   new_arr
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr)
+  if arr.size > 4
+    return true
+  else
+    return false 
+
 end
 
 def find_the_cheese# code an argument here
