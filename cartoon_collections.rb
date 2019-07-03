@@ -1,7 +1,7 @@
-def roll_call_dwarves(arr)
-  arr.each do |ele|
+def roll_call_dwarves(dwarves)
+  dwarves.each do |ele|
     puts i
-  end 
+  end
   # Your code here
 end
 
