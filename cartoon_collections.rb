@@ -3,7 +3,6 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |ele, i|
     spot = i + 1
     puts "#{spot} + #{ele}"
-    puts ele
   end
   # Your code here
 end
